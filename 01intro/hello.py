@@ -62,9 +62,6 @@ numar_pere = 4
 # word = "Ana are " + str(numar_mere) + " mere si " + str(numar_pere)
 # word = f"Ana are {numar_mere} mere si {numar_pere} pere"
 # word = f'Ana are {numar_mere} mere si {numar_pere} pere'
-word = "Ana are {} mere si {} pere".format(numar_mere, numar_pere)
-word = "Ana are {1} mere \si {0} pere".format( numar_mere, numar_pere)
+# word = "Ana are {} mere si {} pere".format(numar_mere, numar_pere)
+word = "Ana are {1} mere \n si {0} pere".format(numar_mere, numar_pere)
 print(word)
-
-
-
