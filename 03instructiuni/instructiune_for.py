@@ -5,9 +5,10 @@ lista = [1, 2, 3]
 #     print(i, v)
 # for i in "Ana are mere":
 #     print(i)
-for andrei in "Ana are mere":
-    print(andrei, 'temporar')
-print(i)
+# for andrei in "Ana are mere":
+#     print(andrei, 'temporar')
 
 lista_cumparaturi = ["struguri", "mere", "pere"]
-for index, value in enumerate
+for index, value in enumerate(lista_cumparaturi):
+    print(index)
+print(index, value)
