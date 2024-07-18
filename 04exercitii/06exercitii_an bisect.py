@@ -3,8 +3,9 @@
 bisect sau nu si afisati un raspuns in acest sens. OBS. Un an bisect se imparte exact
 la 4 (fara rest)
 """
-cifra = int(input("Introduceti un an:"))
-if int(An) % 4 == 0:
+
+an = input("introduceti un an: ")
+if int('an') % 4 == 0:
     print("Anul este bisect")
 else:
     print("Anul nu este bisect")
