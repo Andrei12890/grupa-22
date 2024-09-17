@@ -65,3 +65,4 @@ class Calculator:
 
 obiect_calculator = Calculator()
 print(obiect_calculator)
+# print()
