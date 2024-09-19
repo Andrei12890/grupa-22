@@ -47,9 +47,6 @@ print(4 < 5 or 4 < 3 or 7 > 4)
 # print('mere' in ['pere', 'mere', 'suc', 'alune'])
 # print('mere' not in [])
 #
-#
-#
-#
 # print(str(1) in 'paine')
 # variabila_noua1 = None
 # variabila_noua1 = '1.56'
