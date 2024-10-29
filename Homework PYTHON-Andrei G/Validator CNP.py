@@ -69,19 +69,19 @@ CNP = input("Introduceți un CNP valid: ")
 if len(CNP) != 13:
     print("CNP-ul trebuie să aibă 13 caractere!")
 else:
-    if int(CNP[0]) not in S:
+    if int(CNP[0]) not in range(1, 10):
         print("Caracterul de pe indexul 1 nu este corect! Încearcă din nou.")
-    elif int(CNP[1:3]) not in AA:
+    elif int(CNP[1:3]) not in range(0, 100):
         print("Caracterele de pe indexul 2 și 3 nu sunt corecte! Încearcă din nou.")
-    elif int(CNP[3:5]) not in LL:
+    elif int(CNP[3:5]) not in range(1, 13):
         print("Caracterele de pe indexul 4 și 5 nu sunt corecte! Încearcă din nou.")
-    elif int(CNP[5:7]) not in ZZ:
+    elif int(CNP[5:7]) not in range(1, 32):
         print("Caracterele de pe indexul 6 și 7 nu sunt corecte! Încearcă din nou.")
-    elif int(CNP[7:9]) not in JJ and int(CNP[7:9]) not in JJ1 and CNP[7:9] == "00":
+    elif int(CNP[7:9]) not in range(0, 47) and int(CNP[7:9]) not in range(51, 53) and CNP[7:9] == "00":
         print("Caracterele de pe indexul 8 și 9 nu sunt corecte! Încearcă din nou.")
-    elif int(CNP[9:12]) not in NNN and int(CNP[9:12]) == "000":
+    elif int(CNP[9:12]) not in range(0, 1000) and int(CNP[9:12]) == "000":
         print("Caracterele de pe indexul 10, 11 și 12 nu sunt corecte! Încearcă din nou.")
-    elif int(CNP[12]) not in C:
+    elif int(CNP[12]) not in range(1, 10):
         print("Caracterul de pe indexul 13 nu este corect! Încearcă din nou.")
     else:
 
