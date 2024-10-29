@@ -1,5 +1,6 @@
 """
-Creează un joc în care utilizatorul trebuie să ghicească un număr între 1 și 100, cu sugestii dacă numărul introdus este prea mic sau prea mare.
+Creează un joc în care utilizatorul trebuie să ghicească un număr între
+ 1 și 100, cu sugestii dacă numărul introdus este prea mic sau prea mare.
 """
 import random
 

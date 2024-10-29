@@ -1,6 +1,9 @@
 """
-Creează un program care găsește și afișează cuvântul cel mai lung într-o propoziție introdusă de utilizator.
+Creează un program care găsește și afișează cuvântul cel
+mai lung într-o propoziție introdusă de utilizator.
 """
+
+
 def long():
     propozitie = input("Introduceti propozitia")
     v = 0
@@ -10,5 +13,6 @@ def long():
             lon = cuvant
 
     return lon
+
 
 print(long())

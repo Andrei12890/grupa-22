@@ -1,6 +1,9 @@
 """
-Creează o aplicație care permite utilizatorului să adauge articole (cu preț și cantitate) la o factură și apoi să calculeze totalul.
+Creează o aplicație care permite utilizatorului să adauge articole
+ (cu preț și cantitate) la o factură și apoi să calculeze totalul.
 """
+
+
 def adauga_articole():
     factura = []
     while True:
@@ -18,4 +21,6 @@ def adauga_articole():
         else:
             break
     return True
+
+
 adauga_articole()

@@ -1,5 +1,6 @@
 """
-Creează un program care inversează o listă de numere întregi introduse de utilizator și o afișează.
+Creează un program care inversează o listă de
+numere întregi introduse de utilizator și o afișează.
 """
 my_list = [1, 2, 3, 4, 5, 7]
 
